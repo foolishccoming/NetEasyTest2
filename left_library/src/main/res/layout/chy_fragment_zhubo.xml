@@ -1,0 +1,126 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:columnCount="3"
+    android:paddingBottom="18dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:rowCount="11">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_row="0"
+        android:text="电台个性推荐"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/image1"
+        android:layout_width="112dp"
+        android:layout_height="150dp"
+        android:layout_column="0"
+        android:layout_marginTop="20dp"
+        android:layout_row="1"
+        android:layout_rowSpan="4"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/qinggan" />
+
+    <ImageButton
+        android:id="@+id/image2"
+        android:layout_width="112dp"
+        android:layout_height="150dp"
+        android:layout_column="1"
+        android:layout_marginTop="20dp"
+        android:layout_row="1"
+        android:layout_rowSpan="4"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/qinqing" />
+
+    <ImageButton
+        android:id="@+id/image3"
+        android:layout_width="112dp"
+        android:layout_height="150dp"
+        android:layout_column="2"
+        android:layout_marginTop="20dp"
+        android:layout_row="1"
+        android:layout_rowSpan="4"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/rexue" />
+
+    <TextView
+        android:layout_column="0"
+        android:layout_row="5"
+        android:text="城市偶遇"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_column="1"
+        android:layout_row="5"
+        android:text="带入景中" />
+
+    <TextView
+        android:layout_column="2"
+        android:layout_row="5"
+        android:text="高能抒情" />
+
+    <ImageButton
+        android:id="@+id/image4"
+        android:layout_width="112dp"
+        android:layout_height="150dp"
+        android:layout_column="0"
+        android:layout_marginTop="20dp"
+        android:layout_row="6"
+        android:layout_rowSpan="4"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/chengshi" />
+
+    <ImageButton
+        android:id="@+id/image5"
+        android:layout_width="112dp"
+        android:layout_height="150dp"
+        android:layout_column="1"
+        android:layout_marginTop="20dp"
+        android:layout_row="6"
+        android:layout_rowSpan="4"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/tongzhen" />
+
+    <ImageButton
+        android:id="@+id/image6"
+        android:layout_width="112dp"
+        android:layout_height="150dp"
+        android:layout_column="2"
+        android:layout_marginTop="20dp"
+        android:layout_row="6"
+        android:layout_rowSpan="4"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/fengjing" />
+
+    <TextView
+        android:layout_column="0"
+        android:layout_row="10"
+        android:text="亲情回忆" />
+
+    <TextView
+        android:layout_column="1"
+        android:layout_row="10"
+        android:text="俏皮欢快" />
+
+    <TextView
+        android:layout_column="2"
+        android:layout_row="10"
+        android:text="热血动漫" />
+
+</GridLayout>

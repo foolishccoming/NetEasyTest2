@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorContent">#ff333333</color>
+    <color name="colorPrimary1">#3d48c3</color>
+    <color name="colorPrimaryDark1">#030789</color>
+    <color name="colorPrimaryLight1">#235ea7</color>
+    <color name="colorAccent1">#FF4081</color>
+    <color name="colorPrimary">#43b32a</color>
+    <color name="colorPrimaryDark">#058903</color>
+    <color name="colorPrimaryLight">#90e37d</color>
+    <color name="colorAccent">#942fcf</color>
+    <color name="colorWhite">#fffdfe</color>
+    <color name="colornone">#00000000</color>
+    <color name="colorGreenLightGreater">#6acf2f</color>
+    <color name="color_bantoumin">#515050</color>
+    <color name="colorlightWhite">#b4afaf</color>
+    <dimen name="layout_height_edittext">250dp</dimen>
+    <color name="red">#e1333e</color>
+    <color name="lightred">#a6e71a28</color>
+    <color name="orange">#FF6600</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_200">#796e6e</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="black">#000000</color>
+    <color name="black_1">#333333</color>
+    <color name="amber">#BBFFC107</color>
+    <color name="color_appmain_toobar">#f510b9bc</color>
+    <color name="bantouming">#53c2bcbc</color>
+    <color name="status_color">#56abe4</color>
+    <color name="text_gray">#7b403b37</color>
+    <color name="default_line_color">#e6e6e6</color>
+    <color name="list_item_focus">#0a000000</color>
+    <color name="white_alpha_percent_45">#73ffffff</color>
+    <color name="light_black_color">#3B3B3B</color>
+
+    <color name="colorTitle">#666</color>
+</resources>

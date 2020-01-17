@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:textColor="#EDF40C10"
+        android:id="@+id/fz_content1"
+        android:text="轻音乐" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textSize="20dp"
+          android:textColor="#000000"
+          android:id="@+id/fz_content2"
+          android:text="电子" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textSize="20dp"
+          android:textColor="#000000"
+          android:id="@+id/fz_content3"
+          android:text="民谣" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000000"
+          android:id="@+id/fz_content4"
+          android:layout_weight="1"
+          android:text="歌剧" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:layout_weight="1"
+          android:id="@+id/fz_content5"
+          android:textColor="#000000"
+          android:text="流行" />
+    </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent">
+
+            <GridView android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:numColumns="2"
+                android:layout_marginLeft="5dp"
+                android:rowHeight="175dp"
+                android:id="@+id/fz_gview"
+                android:stretchMode="columnWidth"/>
+        </LinearLayout>
+
+</LinearLayout>

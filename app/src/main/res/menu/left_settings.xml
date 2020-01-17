@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/grop1">
+        <item android:icon="@drawable/icon_appmain_left_menu_talk"
+            android:title="我的消息"
+            app:showAsAction="always"
+            android:actionLayout="@layout/item_menu"/>
+        <item android:icon="@drawable/icon_appmain_left_menu_drink"
+            android:title="会员中心"
+            app:showAsAction="always"
+            android:actionLayout="@layout/item_menu"/>
+        <item android:icon="@drawable/icon_appmain_left_menu_listen"
+            android:title="商城"
+            app:showAsAction="always"
+            android:actionLayout="@layout/item_menu"/>
+        <item android:icon="@drawable/icon_appmain_left_menu_listen"
+            android:title="在线听歌免流量"
+            app:showAsAction="always"
+            android:actionLayout="@layout/item_menu"/>
+    </group>
+    <group android:id="@+id/grop2">
+        <item android:icon="@drawable/icon_appmain_left_menu_talk"
+            android:title="我的好友"/>
+        <item android:icon="@drawable/icon_appmain_left_menu_talk"
+            android:title="附近的人"/>
+    </group>
+
+    <group android:id="@+id/grop3">
+        <item android:icon="@drawable/icon_appmain_left_menu_talk"
+            android:title="个性换肤"/>
+        <item android:icon="@drawable/icon_appmain_left_menu_talk"
+            android:title="听歌识曲"/>
+        <item android:icon="@drawable/icon_appmain_left_menu_talk"
+            android:title="定时停止播放"/>
+        <item android:icon="@drawable/icon_appmain_left_menu_talk"
+            android:title="音乐闹钟"/>
+        <item android:icon="@drawable/icon_appmain_left_menu_talk"
+            android:title="驾驶模式"/>
+        <item android:icon="@drawable/icon_appmain_left_menu_talk"
+            android:title="音乐云盘"/>
+    </group>
+</menu>

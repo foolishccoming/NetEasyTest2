@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_header"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/bg_drawerlayout_left_headbg"
+    android:clickable="true"
+    android:focusable="true">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/id_user_roundedImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/id_appmain_drawelayout_left_btn_signin"
+        android:layout_alignStart="@+id/id_appmain_drawelayout_left_btn_signin"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/icon_login_photo"
+        app:riv_corner_radius="100dp" />
+    <Button
+        android:id="@+id/id_appmain_drawelayout_left_btn_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:background="@color/colornone"
+        android:text="登录"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/id_appmain_drawelayout_left_btn_qiandao"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/id_user_roundedImageView"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/appmain_left_bg_btn_qiandao"
+        android:text="签到"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp" />
+</RelativeLayout>

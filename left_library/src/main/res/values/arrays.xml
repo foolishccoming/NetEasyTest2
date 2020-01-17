@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="strs_music_liebiao">
+        <item>本地音乐</item>
+        <item>最近播放</item>
+        <item>下载管理</item>
+        <item>我的电台</item>
+        <item>我的收藏</item>
+    </string-array>
+
+    <string-array name="strs_music_number">
+        <item>132</item>
+        <item>100</item>
+        <item>132</item>
+        <item>3</item>
+        <item>专辑/歌手/MV/专栏</item>
+    </string-array>
+    <string-array name="yhq_online_music_list_title">
+        <item>百度热歌榜</item>
+        <item>百度新歌榜</item>
+        <item>华语金曲榜</item>
+        <item>欧美金曲榜</item>
+        <item>影视金曲榜</item>
+        <item>情歌对唱榜</item>
+        <item>网络歌曲榜</item>
+        <item>经典老歌榜</item>
+        <item>摇滚榜</item>
+        <item>KTV热歌榜</item>
+        <item>Billboard</item>
+        <item>Hito中文榜</item>
+        <item>叱咤歌曲榜</item>
+    </string-array>
+    <string-array name="yhq_online_music_list_type">
+        <item>2</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+        <item>24</item>
+        <item>23</item>
+        <item>25</item>
+        <item>22</item>
+        <item>11</item>
+        <item>6</item>
+        <item>8</item>
+        <item>18</item>
+        <item>7</item>
+    </string-array>
+
+
+</resources>

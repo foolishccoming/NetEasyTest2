@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appmain_drawerlayout_left_menu_itemNames">
+        <item>我的消息</item>
+        <item>我的消息</item>
+        <item>会员中心</item>
+        <item>商城</item>
+        <item>在线听歌免流量</item>
+        <item>"你好"</item>
+        <item>我的好友</item>
+
+
+        <item>附近的人</item>
+        <item>"你好"</item>
+        <item>个性皮肤</item>
+
+        <item>听歌识曲</item>
+        <item>定时停止播放</item>
+        <item>音乐闹钟</item>
+
+        <item>定时停止播放</item>
+        <item>音乐闹钟</item>
+        <item>驾驶模式</item>
+        <item>音乐云盘</item>
+
+    </string-array>
+
+    <string-array name="spingarr">
+        <item>自动</item>
+        <item>标准</item>
+        <item>较高</item>
+        <item>极高</item>
+    </string-array>
+
+    <string-array name="spingarr2">
+        <item>云音乐锁屏</item>
+        <item>系统锁屏</item>
+    </string-array>
+</resources>

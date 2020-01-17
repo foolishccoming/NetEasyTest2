@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_regit">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/red"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/toolbar"
+        app:layout_constraintHorizontal_bias="0.0">
+
+        <Button
+            android:id="@+id/id_login_btn_return"
+            android:background="@color/colornone"
+            android:textColor="@color/colorWhite"
+            android:drawableLeft="@drawable/icon_login_return1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textAlignment="textStart"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="用户注册"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/id_login_etxt_username"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="请输入你的用户名"
+        android:paddingLeft="15dp"
+        android:textColor="@color/red"
+        android:textColorHint="@color/lightred"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <EditText
+        android:id="@+id/id_login_etxt_passWord1"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="请输入你的密码"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:password="true"
+        android:textColor="@color/red"
+        android:textColorHint="@color/lightred"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_login_etxt_username" />
+
+    <EditText
+        android:id="@+id/id_login_etxt_passWord_repeat"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="确认你的密码"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:password="true"
+        android:textColor="@color/red"
+        android:textColorHint="@color/lightred"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_login_etxt_passWord1" />
+
+    <EditText
+        android:id="@+id/id_login_etxt_email"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="输入你的邮箱(可选，用于找回密码)"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="@color/red"
+        android:textColorHint="@color/lightred"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_login_etxt_passWord_repeat" />
+
+    <EditText
+        android:id="@+id/id_login_etxt_phoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="输入你的电话号码"
+        android:inputType="phone"
+        android:paddingLeft="15dp"
+        android:textColor="@color/red"
+        android:textColorHint="@color/lightred"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_login_etxt_email" />
+
+
+    <Button
+        android:id="@+id/id_login_btn_confirmLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="46dp"
+        android:text="确认注册"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_login_select"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_login_etxt_phoneNumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp" />
+
+</android.support.constraint.ConstraintLayout>
